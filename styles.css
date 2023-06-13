@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .container  {
     display: flex;
     flex-direction: column;
@@ -33,7 +37,7 @@
 
 .hero {
     display: flex;
-    color: white;
+    color: #F9FAF8;
     justify-content: center;
     background-color: #1f2937;
     padding-top: 100px;
@@ -49,17 +53,81 @@
 
 .sign_up {
     width: 100px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 8px;
 }
 
 .right_hero {
-    
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
 .body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
     background-color: #1f2937;
     color: white;
+    padding: 40px;
+    display: flex;
+}
+
+.information-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 150px;
+}
+
+.image-box {
+    height: 200px;
+    width: 200px;
+    border: #3882f6 solid 5px;
+    border-radius: 16px;
+}
+
+.subtext {
+    max-width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 780px;
+}
+
+.quote-author {
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: bold;
+    margin-left: 500px;
 }
