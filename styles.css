@@ -3,6 +3,7 @@ body {
 }
 
 .container  {
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -56,6 +57,10 @@ body {
     background-color: #3882f6;
     color: #F9FAF8;
     border-radius: 8px;
+    padding: 5px;
+    font-weight: bold;
+    border: #3882f6;
+
 }
 
 .right_hero {
@@ -130,4 +135,41 @@ body {
     color: #1f2937;
     font-weight: bold;
     margin-left: 500px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 150px;
+}
+
+.action-title {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.action-button {
+    flex: 1;
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    border: 2.5px solid;
+    border-radius: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
 }
