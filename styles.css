@@ -93,7 +93,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin: 150px;
+    margin-bottom: 150px;
 }
 
 .image-box {
@@ -104,7 +104,7 @@ body {
 }
 
 .subtext {
-    max-width: 150px;
+    max-width: 200px;
     text-align: center;
     margin-top: 10px;
 }
