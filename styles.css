@@ -146,6 +146,7 @@ body {
     border-radius: 10px;
     justify-content: center;
     gap: 150px;
+    align-self: center;
 }
 
 .action-title {
